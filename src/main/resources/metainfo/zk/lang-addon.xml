@@ -1,0 +1,32 @@
+<language-addon>
+    <addon-name>fdgf</addon-name>
+  	<version>
+		<version-class>fyfg.Version</version-class>
+		<version-uid>yth</version-uid>
+		<zk-version>9.6.0</zk-version><!-- or later -->
+	</version>
+    
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>fgf</component-name> <!-- required -->
+		<component-class>fyfg.fgfd</component-class> <!-- required -->
+		<widget-class>fdgf.fgfd</widget-class> <!-- required -->
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/fgf.js</mold-uri>
+
+			<!--
+			== Tip in advance ==
+				You don't have to specify a css.dsp if you need not ,
+				but usually you need it.
+
+				You could assign a .css file ,too.
+
+				The css.dsp is almost as same as CSS file ,
+				but have more powerful enhancement.	(like EL support.)
+			====
+			-->
+			<css-uri>css/fgf.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>
